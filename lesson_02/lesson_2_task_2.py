@@ -1,8 +1,6 @@
-year = input("Введите год: ")
-year_num = int(year)
+year = int(input("Введите год: "))
 
-for n in [year_num]:
-    if n % 4 == 0:
-        print(True)
-    else:
-        print(False)
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(True)
+else:
+    print(False)

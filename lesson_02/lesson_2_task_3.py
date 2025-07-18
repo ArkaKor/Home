@@ -2,8 +2,7 @@ import math
 
 
 def square(a):
-    """Фунция для вычисления площади"""
-    print(a*a)
+    return math.ceil(a * a)
 
 
-square(math.ceil(float(input("Введите значение: "))))
+print(square(float(input("Введите значение: "))))
