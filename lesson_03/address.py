@@ -1,4 +1,4 @@
-class Adress:
+class Address:
     index = 111111
     city = "Город"
     street = "Улица"

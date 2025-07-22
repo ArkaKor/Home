@@ -1,14 +1,14 @@
-from adress import Adress
+from address import Address
 
 
 class Mailing:
-    to_address = Adress
-    from_address = Adress
-    cost = 1200
-    track = 1234567890
+    to_address = Address
+    from_address = Address
+    cost = float
+    track = str
 
-    def __init__(self, to_adress, from_adress, cost: float, track: str):
-        self.to = to_adress
-        self.fr = from_adress
-        self.c = cost
-        self.t = track
+    def __init__(self, to_address, from_address, cost: float, track: str):
+        self.to_adress_1 = to_address
+        self.from_address_1 = from_address
+        self.cost_1 = cost
+        self.track_1 = track
