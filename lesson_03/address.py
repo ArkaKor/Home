@@ -1,14 +1,9 @@
 class Address:
-    index = 111111
-    city = "Город"
-    street = "Улица"
-    house = 23
-    flat = 65
 
-    def __init__(self, index, city, steet, house, flat):
+    def __init__(self, index, city, street, house, flat):
         self.i = index
         self.c = city
-        self.s = steet
+        self.s = street
         self.h = house
         self.f = flat
     

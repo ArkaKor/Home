@@ -6,4 +6,4 @@ sending = Mailing(Address(141300, "г. Сергиев Посад", "ул. Вав
                   "1300", "1224567890")
 
 print(f"Отправление {sending.track_1} из {sending.from_address_1} \
-в {sending.to_adress_1}. Стоимость {sending.cost_1} рублей.")
+в {sending.to_address_1}. Стоимость {sending.cost_1} рублей.")
