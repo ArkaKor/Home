@@ -13,8 +13,8 @@ def test_shop():
     driver.find_element(By.ID, 'add-to-cart-sauce-labs-onesie').click()
     driver.find_element(By.CLASS_NAME, 'shopping_cart_badge').click()
     driver.find_element(By.ID, 'checkout').click()
-    driver.find_element(By.ID, 'first-name').send_keys('Арка')
-    driver.find_element(By.ID, 'last-name').send_keys('Карма')
+    driver.find_element(By.ID, 'first-name').send_keys('Аркадий')
+    driver.find_element(By.ID, 'last-name').send_keys('Кормилицын')
     driver.find_element(By.ID, 'postal-code').send_keys('141300')
     driver.find_element(By.ID, 'continue').click()
     total = driver.find_element(By.CLASS_NAME, 'summary_total_label').text
