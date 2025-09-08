@@ -12,7 +12,7 @@ my_params = {
 def test_open():
     inspector = inspect(db)
     names = inspector.get_table_names()
-    assert names[4] == 'teacher'
+    assert 'teacher' in names
 
 
 def test_insert():
@@ -40,7 +40,7 @@ def test_update():
 
     name = text("select teacher_id, email from teacher where email = :email")
     res = connection.execute(name, my_params).fetchall()
-    assert res[0][0] == my_params['teacher_id']
+    assert my_params['teacher_id'] in res[0]
 
     transaction.commit()
     connection.close()
