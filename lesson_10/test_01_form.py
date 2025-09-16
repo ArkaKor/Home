@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from code_form import Form_Page
+from lesson_10.form_page import FormPage
 import allure
 
 
@@ -27,7 +27,7 @@ def test_form(driver):
 
     :param driver: WebDriver — объект драйвера, переданный фикстурой.
     """
-    form = Form_Page(driver)
+    form = FormPage(driver)
 
     with allure.step("Открытие страницы формы"):
         form.open()

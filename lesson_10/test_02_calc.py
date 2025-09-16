@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from code_calc import CalcMainPage
+from lesson_10.calc_page import CalcMainPage
 import allure
 
 

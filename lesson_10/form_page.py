@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import allure
 
 
-class Form_Page():
+class FormPage():
     def __init__(self, driver):
         """
         Конструктор класса Form_Page.

@@ -3,7 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 import allure
 
 
-class Checkout_Page():
+class CheckoutPage():
     def __init__(self, driver):
         """
         Конструктор класса Checkout_Page.

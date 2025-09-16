@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import allure
 
 
-class Cart_Page():
+class CartPage():
     def __init__(self, driver):
         """
         Конструктор класса Cart_Page.

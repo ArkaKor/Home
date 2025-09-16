@@ -3,7 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 import allure
 
 
-class Main_Page():
+class MainPage():
     def __init__(self, driver):
         """
         Конструктор класса Form_Page.
